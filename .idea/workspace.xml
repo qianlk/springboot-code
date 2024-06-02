@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="sboot-security" />
+      <module name="sboot-datasource" />
+      <module name="hm-dianping" />
+      <module name="sboot-package" />
+      <module name="sboot-configuration" />
+      <module name="sboot-task" />
+      <module name="sboot-log" />
+      <module name="jedis-demo" />
+      <module name="sboot-junit-mybatis" />
+      <module name="sboot-ssmp" />
+      <module name="springboot-code" />
+      <module name="sboot-mq" />
+      <module name="sboot-admin" />
+      <module name="sboot-mail" />
+      <module name="jedis-spring-demo" />
+      <module name="build-sboot" />
+      <module name="sboot-nosql" />
+      <module name="sboot-cache" />
+      <module name="spring-bean" />
+      <module name="sboot-mybatisplus" />
+      <module name="sboot-admin-client" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9a7394b-24ad-42e8-be57-710e826fd90b" name="Changes" comment="feat: commit">
+      <change afterPath="$PROJECT_DIR$/build-sboot/src/test/java/org/sboot/RSAUsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-sboot/src/test/java/org/sboot/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build-sboot/src/test/java/org/sboot/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/java/com/zigzag/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/java/com/zigzag/autoconfig/IpAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/java/com/zigzag/properties/IpProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/java/com/zigzag/service/IpCountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-starter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ip-spring-boot-starter/src/main/java/com/zigzag/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin-client/src/main/java/org/sboot/AdminClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin/src/main/java/org/sboot/AdminApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/main/java/org/sboot/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/main/java/org/sboot/service/SendMailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/main/java/org/sboot/service/impl/SendMailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/main/resources/SpringBoot讲义.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mail/src/test/java/org/sboot/service/impl/SendMailServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/MQApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/listener/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/service/activemq/ActivemqMsgServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/java/org/sboot/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-mq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/expression/CustomExpressionRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-ssmp/src/main/java/org/sboot/ssmp/controller/interceptor/IpCountInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/main/java/org/sboot/TaskApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/main/java/org/sboot/config/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/main/java/org/sboot/quartz/MyQuartz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/main/java/org/sboot/task/MyTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sboot-task/src/test/java/org/sboot/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/bean/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/bean/DogFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/bean/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/DbConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/MyImportSelector6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/MyPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/MyRegistrar7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/SpringConfig8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/service/impl/BookServiceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/service/impl/BookServiceImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/service/impl/BookServiceImpl4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/applicationContext1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-bean/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-sboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build-sboot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/HmDianPingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/config/WebExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/BlogCommentsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/FollowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/ShopTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/controller/VoucherOrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/dto/LoginFormDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/dto/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/dto/ScrollResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/BlogComments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/Follow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/SeckillVoucher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/ShopType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/Voucher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/entity/VoucherOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/interceptor/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/interceptor/RefreshTokenInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/BlogCommentsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/BlogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/FollowMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/SeckillVoucherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/ShopMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/ShopTypeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/VoucherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/mapper/VoucherOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IBlogCommentsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IBlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IFollowService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/ISeckillVoucherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IShopTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/IVoucherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/BlogCommentsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/SeckillVoucherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/ShopTypeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/PasswordEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RedisConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RedisData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RegexPatterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/RegexUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/SystemConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/java/com/hmdp/utils/UserHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/resources/db/hmdp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/main/resources/mapper/VoucherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hm-dianping/src/test/java/com/hmdp/HmDianPingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/utils/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-security/src/main/java/org/sboot/utils/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-ssmp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-ssmp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-ssmp/src/main/java/org/sboot/ssmp/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-ssmp/src/main/java/org/sboot/ssmp/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-ssmp/src/main/java/org/sboot/ssmp/controller/admin/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-ssmp/src/main/java/org/sboot/ssmp/controller/admin/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sboot-ssmp/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sboot-ssmp/src/main/resources/config/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mybatis Mapper" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1710855879" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1710855878" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Program Files/apache-maven-3.9.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.9.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="jdk-17" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2ctHIyvq8i8GrS4zLekLeNQ4CeW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsRepo/springboot-code/springboot-code/spring-bean/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25164318&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;29336a901601dadc68d9ed3ba8f5e714&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectsRepo\springboot-code\springboot-code\spring-bean\src\main\resources" />
+      <recent name="D:\ProjectsRepo\springboot-code\springboot-code\sboot-mail\src\main\resources" />
+      <recent name="D:\ProjectsRepo\springboot-code\springboot-code\hm-dianping" />
+      <recent name="D:\ProjectsRepo\springboot-code\springboot-code\sboot-cache\src\main\resources" />
+      <recent name="D:\ProjectsRepo\springboot-code\springboot-code\sboot-cache\src\main\java\org\sboot" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.sboot.service.impl" />
+      <recent name="org.sboot" />
+      <recent name="org.sboot.mapper" />
+      <recent name="org.sboot.ssmp.controller.admin" />
+      <recent name="org.sboot.ssmp.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sboot.app" />
+      <recent name="org.sboot.config" />
+      <recent name="org.sboot.service.impl" />
+      <recent name="org.sboot.bean" />
+      <recent name="com.hmdp.interceptor" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile" />
+      <command value="mvn clean" />
+      <command value="mvn clean package -Dmaven.test.skip=true" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RsaUtils">
+    <configuration name="App7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sboot.app.App7" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sboot.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sboot.app.App8" />
+      <module name="spring-bean" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sboot.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IpCountService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zigzag.service.IpCountService" />
+      <module name="ip-spring-boot-autoconfigure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zigzag.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSAUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sboot.RSAUsing" />
+      <module name="build-sboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RsaUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sboot.RsaUtils" />
+      <module name="build-sboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HmDianPingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackageApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sboot-package" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sboot.PackageApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSMPApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sboot-ssmp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sboot.ssmp.SSMPApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RSAUsing" />
+      <item itemvalue="Application.RsaUtils" />
+      <item itemvalue="Application.IpCountService" />
+      <item itemvalue="Application.App7" />
+      <item itemvalue="Application.App8" />
+      <item itemvalue="Spring Boot.HmDianPingApplication" />
+      <item itemvalue="Spring Boot.PackageApp" />
+      <item itemvalue="Spring Boot.SSMPApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RsaUtils" />
+        <item itemvalue="Application.RSAUsing" />
+        <item itemvalue="Application.IpCountService" />
+        <item itemvalue="Application.App8" />
+        <item itemvalue="Application.App7" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9a7394b-24ad-42e8-be57-710e826fd90b" name="Changes" comment="" />
+      <created>1708923878266</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708923878266</updated>
+      <workItem from="1708923879338" duration="941000" />
+      <workItem from="1708924836222" duration="5161000" />
+      <workItem from="1708931001138" duration="2125000" />
+      <workItem from="1708933226099" duration="158000" />
+      <workItem from="1708933416767" duration="132000" />
+      <workItem from="1708954516768" duration="601000" />
+      <workItem from="1709082809238" duration="451000" />
+      <workItem from="1709083262708" duration="8474000" />
+      <workItem from="1709097246581" duration="34000" />
+      <workItem from="1709097290320" duration="763000" />
+      <workItem from="1709206729215" duration="15351000" />
+      <workItem from="1709342815560" duration="2927000" />
+      <workItem from="1709468567224" duration="6345000" />
+      <workItem from="1709514073927" duration="6781000" />
+      <workItem from="1709522931000" duration="7770000" />
+      <workItem from="1709602927044" duration="8172000" />
+      <workItem from="1709727513939" duration="5725000" />
+      <workItem from="1709821941955" duration="18760000" />
+      <workItem from="1710034988990" duration="163000" />
+      <workItem from="1710121303512" duration="7764000" />
+      <workItem from="1710145707381" duration="5053000" />
+      <workItem from="1710231906561" duration="817000" />
+      <workItem from="1710725465870" duration="20630000" />
+      <workItem from="1710773009522" duration="1108000" />
+      <workItem from="1710855704831" duration="2735000" />
+      <workItem from="1710859150268" duration="3830000" />
+      <workItem from="1710903992496" duration="1194000" />
+      <workItem from="1710908570860" duration="2238000" />
+      <workItem from="1711075604799" duration="19154000" />
+      <workItem from="1711346852300" duration="4296000" />
+      <workItem from="1711353865193" duration="1040000" />
+      <workItem from="1711354969477" duration="157000" />
+      <workItem from="1711355128610" duration="49000" />
+      <workItem from="1711355185634" duration="79000" />
+      <workItem from="1711355296448" duration="161000" />
+      <workItem from="1711371851205" duration="6932000" />
+      <workItem from="1711416717823" duration="1173000" />
+      <workItem from="1712743578441" duration="67000" />
+      <workItem from="1713260374084" duration="1379000" />
+      <workItem from="1713855722417" duration="53000" />
+      <workItem from="1714450404815" duration="10000" />
+      <workItem from="1715130370236" duration="3000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: commit">
+      <created>1710855893606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855893606</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="application.yaml" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="application.yml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/sboot-ssmp/src/main/resources/static/pages/books.html</url>
+          <line>283</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/app/App5.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-bean/src/main/java/org/sboot/config/MyImportSelector6.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

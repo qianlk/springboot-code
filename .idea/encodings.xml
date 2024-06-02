@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/build-sboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/build-sboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hm-dianping/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hm-dianping/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ip-spring-boot-autoconfigure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ip-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ip-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jedis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jedis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jedis-spring-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jedis-spring-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-admin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-admin-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-configuration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-datasource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-datasource/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-junit-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-junit-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mq/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mybatisplus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-mybatisplus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-nosql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-nosql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-package/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-package/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-ssmp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-ssmp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sboot-task/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-bean/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
